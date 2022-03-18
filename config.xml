@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.asasduniaapp" version="1.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Hijauan Hills</name>
+    <description>
+        Hijauan Hills is the 1st fully integrated township in Seberang Perai Selatan planned for modern Malaysia city living. Named for and inspired by its surrounding landscapes. 
+    </description>
+    <author email="enquiries@asasdunia.com" href="http://hijauanhills.com.my/">
+        Asas Dunia
+    </author>
+	<icon src="icon/icon.png" />
+    <content src="index.html" />
+    <access origin="*" />
+</widget>

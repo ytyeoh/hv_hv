@@ -1,0 +1,77 @@
+/* Variable */
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/notosans/NotoSans-BoldItalic.woff) format("woff"), url(../fonts/notosans/NotoSans-BoldItalic.ttf) format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/notosans/NotoSans-Light.woff) format("woff"), url(../fonts/notosans/NotoSans-Light.ttf) format("truetype");
+  font-weight: 500;
+  font-style: normal; }
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/notosans/NotoSans-LightItalic.woff) format("woff"), url(../fonts/notosans/NotoSans-LightItalic.ttf) format("truetype");
+  font-weight: 500;
+  font-style: italic; }
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/notosans/NotoSans-SemiBold.woff) format("woff"), url(../fonts/notosans/NotoSans-SemiBold.ttf) format("truetype");
+  font-weight: 600;
+  font-style: normal; }
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/notosans/NotoSans-SemiBoldItalic.woff) format("woff"), url(../fonts/notosans/NotoSans-SemiBoldItalic.ttf) format("truetype");
+  font-weight: 600;
+  font-style: italic; }
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/notosans/NotoSans-Thin.woff) format("woff"), url(../fonts/notosans/NotoSans-Thin.ttf) format("truetype");
+  font-weight: 100;
+  font-style: normal; }
+
+@font-face {
+  font-family: NotoSans;
+  src: url(../fonts/notosans/NotoSans-ThinItalic.woff) format("woff"), url(../fonts/notosans/NotoSans-ThinItalic.ttf) format("truetype");
+  font-weight: 100;
+  font-style: italic; }
+
+button,
+html,
+body,
+input,
+select,
+textarea {
+  font-family: NotoSans, Arial, sans-serif; }
+
+header .navbar.navbar-new-bottom {
+  padding: 0; }
+  header .navbar.navbar-new-bottom .navbar-nav > li:hover, header .navbar.navbar-new-bottom .navbar-nav > li.active > a {
+    background-color: #E3E3E3;
+    color: #9B1BBC; }
+  header .navbar.navbar-new-bottom .navbar-nav > li a {
+    color: #9B1BBC;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: block;
+    padding: 1.5em 1em;
+    text-align: center; }
+  header .navbar.navbar-new-bottom .navbar-nav > li + li a {
+    position: relative; }
+    header .navbar.navbar-new-bottom .navbar-nav > li + li a::before {
+      content: "";
+      position: absolute;
+      left: -1px;
+      top: 35%;
+      bottom: 35%;
+      width: 2px;
+      opacity: .05;
+      background-color: #292929; }
+
+/*# sourceMappingURL=styles.css.map */

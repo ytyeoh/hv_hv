@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Desa Impian 2</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 1920px; height: 1080px; background: #828080"></canvas>
+    <script src="Build/WebGL_DI2 Terrace 1.0.0.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGL_DI2 Terrace 1.0.0.data",
+        frameworkUrl: "Build/WebGL_DI2 Terrace 1.0.0.framework.js",
+        codeUrl: "Build/WebGL_DI2 Terrace 1.0.0.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Desa Impian 2",
+        productVersion: "1.0.0",
+      });
+    </script>
+  </body>
+</html>

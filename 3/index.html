@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Unity WebGL Player | Hijauan Valdor</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" style="width: 1920px; height: 1080px; background: #828080"></canvas>
+    <script src="Build/WebGL_AD1 1.0.2.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGL_AD1 1.0.2.data",
+        frameworkUrl: "Build/WebGL_AD1 1.0.2.framework.js",
+        codeUrl: "Build/WebGL_AD1 1.0.2.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Hijauan Valdor",
+        productVersion: "1.0.2",
+      });
+    </script>
+  </body>
+</html>
