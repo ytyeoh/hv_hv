@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Hijauan Valdor | Type A</title>
+  </head>
+  <body style="text-align: center">
+    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: #828080"></canvas>
+    <script src="Build/WebGL_AD2 Type A 1.0.4.loader.js"></script>
+    <script>
+      createUnityInstance(document.querySelector("#unity-canvas"), {
+        dataUrl: "Build/WebGL_AD2 Type A 1.0.4.data",
+        frameworkUrl: "Build/WebGL_AD2 Type A 1.0.4.framework.js",
+        codeUrl: "Build/WebGL_AD2 Type A 1.0.4.wasm",
+        streamingAssetsUrl: "StreamingAssets",
+        companyName: "DefaultCompany",
+        productName: "Hijauan Valdor",
+        productVersion: "1.0.4",
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+      });
+    </script>
+  </body>
+</html>
